@@ -9,16 +9,18 @@
     font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 .container{
-    margin-bottom: 2.4rem;;
+    margin-bottom: 2.4rem;
 }
 .heading{
     margin-bottom: 2.4rem;
+    margin-left: 40px;
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 1.25;
     line-height: 1.25;
 }
 .sub-heading{
+    margin-left: 40px;
     font-weight: 700;
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
@@ -57,14 +59,39 @@ a {
 .last-title{
     font-size: 1.5rem;
 }
-/* *{
-    width: 100%;
-} */
+.footer-nav{
+    margin-top: -40px;
+}
 
 .footer{
-    background-color: #b9defe;
+    background-color: #1c1d1f;
+    margin-bottom: -60px;
+    color: white;
 }
 .row{
     margin-left: 20px;
     font-weight: 600;
+}
+.nav-link{
+    font-weight: bold;
+}
+.select-lang{
+    color: grey;
+    font-weight: lighter;
+    margin-left: -10px;
+}
+.select-lang:hover{
+    color: white;
+}
+.copyright{
+    margin-left: 30px;
+}
+.form-control{
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.search-btn{
+    margin-top: 8px;
+    margin-left: -10px;
 }
