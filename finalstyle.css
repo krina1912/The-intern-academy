@@ -1,9 +1,13 @@
 .big-banner{
-    background-image: url('../image.jpg');
-    background-size: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJvb2tzfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+    background-size: 150vh;
 }
 .fresh-content{
     background: linear-gradient(to right, rgb(168,58,58), rgb(228,102,102));
+}
+.landing-head{
+    color: #1c1d1f;
+    font-weight: bold;
 }
 .body{
     font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
@@ -96,5 +100,9 @@ a {
     margin-left: -10px;
 }
 .landing-question {
-    margin-top: -1px;
+    margin-top: -0.5px;
+    margin-left: -5px;
+}
+.landing-head-secondary{
+    color: #1c1d1f;
 }
